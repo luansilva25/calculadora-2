@@ -33,7 +33,7 @@ function setLanguage(traducao) {
     btMulti = document.getElementById('btMultiplicação')
     btdivisão = document.getElementById('btDivisão')
     titulo = document.getElementById('titulo')
-    boasvindas == document.getElementById('boasVindas')
+    boasvindas = document.getElementById('boasVindas')
 
     btSoma.value = traducao.soma
     btsub.value = traducao.subtracao
