@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <script src="js.js"></script>
+  
 </head>
 <body>
     <select name="idioma" id="idioma">
@@ -14,6 +14,8 @@
         <option value="fr">Français</option>
         <option value="br" selected ='selected'>Portugues[Brasil]</option>
     </select>
+    <h1 id="titulo">Calculadora</h1>
+    <h3 id="boasvindas">esta é uma Calculadora com diferentes idiomas</h3>
     <input type="text" name="valor 1" id="valor-1">
     <p>+</p>
     <input type="text" name="valor 2" id="valor-2">
@@ -23,9 +25,8 @@
     <input type="button" value="subtração" id="btSubtração">
     <input type="button" value="multiplicação" id="btMultiplicação">
     <input type="button" value="divisão" id="btDivisão">
-
-
-    <input type="button" value="botao 1" id="btn-1" onclick="clq1()">
-    <input type="button" value="botao 2" id="btn-2" onclick="clq2()">
+    <input type="button" value="resetar" id="reset">
+    <script type="text/javascript" src="math.js"></script>
+    <script type="text/javascript" src="translate.js"></script>
 </body>
 </html>
