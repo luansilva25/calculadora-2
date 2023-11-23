@@ -4,7 +4,7 @@ function frances() {
         subtracao: 'Soustraire',
         multiplicacao: 'Multiplicacion',
         divisao: 'Division',
-        titulo: 'Calculadora',
-        boasVindas: 'esta é uma calculadora de diferentes idiomas',
+        titulo: 'calculatrice',
+        boasVindas: 'c`est une calculatrice dans différentes langues',
     }
 }
